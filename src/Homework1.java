@@ -14,7 +14,7 @@ public class Homework1 {
 		// TODO: Implement your project here
 
 		Node answer = new Node();
-		input = args[0];
+		input = "251-*32*+";
 
 		if (args.length!=0) {
 		}
@@ -31,6 +31,7 @@ public class Homework1 {
 		String infix = inorder(answer);
 		System.out.println(infix.substring(1,infix.length()-1) + "=" +calculator(answer));
 		//System.out.println(answer.nodeLeft().nodeRight().getValue());
+	TreeIconDemo2.main(answer);
 	}
 
 
